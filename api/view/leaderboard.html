@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>leaderboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            min-height: 0;
+            min-width: 0;
+        }
+
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: sans-serif;
+            line-height: 1.15;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield !important;
+        }
+
+        body {
+            padding: 0;
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+            font-size: 14px;
+            line-height: 1.15;
+            background: #fff;
+        }
+
+        .header {
+            background: #821D8F;
+            height: 60px;
+            display: flex;
+            padding: 0 15px;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Roboto', sans-serif;
+            color: #fff;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        .leaderboard-contents {
+            padding: 15px;
+            max-width: 767px;
+            margin: 0 auto;
+        }
+
+        .leaderboard-contents h3 {
+            font-size: 22px;
+            font-weight: 500;
+            color: #821D8F;
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+        }
+
+        .leaderboard-contents h3 span {
+            font-weight: 700;
+            color: #16a085;
+            font-size: 24px;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+        }
+
+        .common-table {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+
+        .common-table thead {
+            background: #f0f1f7;
+        }
+
+        .common-table td,
+        .common-table th {
+            letter-spacing: 0.45px;
+            padding: 8px;
+            font-size: 13px;
+            vertical-align: middle;
+            border: none;
+            text-align: left;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .common-table thead th {
+            font-weight: 500;
+            color: #821D8F;
+            border: none;
+            padding: 15px 8px !important;
+            cursor: pointer;
+        }
+
+        .common-table td,
+        .common-table th {
+            white-space: nowrap;
+        }
+
+        .common-table tbody th {
+            font-weight: 400;
+            color: #696e92;
+        }
+
+        .common-table tbody td {
+            color: #696e92;
+            font-weight: 300;
+        }
+
+        .common-table tbody tr:nth-child(2n+2) {
+            background: #fafafc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">Leader Board</div>
+    <div class="leaderboard-contents">
+        <h3>Your current position is: <span><?php echo str_pad($my_position, 2, '0', STR_PAD_LEFT) ?></span></h3>
+        <div class="score-table">
+            <div class="table-responsive">
+                <table class="table common-table">
+                    <thead>
+                        <tr>
+                            <th>Position</th>
+                            <th>Name </th>
+                            <th>Latest High Score</th>
+                            <th>Duration</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                            foreach($leaderBoardData as $key => $value)
+                            {
+                                $time_parse = date_parse($value['time_required']);
+                        ?>
+                                <tr>
+                                    <th><?php echo str_pad($value['position'], 2, '0', STR_PAD_LEFT)?></th>
+                                    <td><?php echo $value['name']?></td>
+                                    <td><?php echo $value['score']?></td>
+                                    <td>
+                                        <?php echo $time_parse['minute']?> min.
+                                        <?php echo $time_parse['second']?> sec.
+                                    </td>
+                                </tr>
+                        <?php        
+                            }
+                        ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+2020-11-11 19:51:42|null|{"MESSENGER_ID":"4673176052756794","carouselvalue":"26.81","fbclid":"IwAR3ljSVq-V4PNuofj5NqiyqK_DQbATsv38oZeTVTi_GbHF9ZCCaTPYobBQc"}|

@@ -1,0 +1,1 @@
+2020-11-12 10:27:28|null|{"newsKey":"bookReview","carousel_value":"bookReview_news_1970585","MESSENGER_ID":"5368709159821179"}|"bookReview"|"https:\/\/www.thedailystar.net\/book-reviews\/news\/should-we-separate-art-the-artist-1970585"|

@@ -1,0 +1,5 @@
+2020-10-20 01:24:02|null|{"redirectType":"dsBangla"}|"dsBangla"|null|
+2020-10-20 03:13:58|null|{"redirectType":"dsBangla","MESSENGER_ID":"3388542937903208"}|"dsBangla"|null|
+2020-10-20 03:56:11|null|{"redirectType":"dsBangla","MESSENGER_ID":"3388542937903208"}|"dsBangla"|null|
+2020-10-20 05:42:15|null|{"redirectType":"dsBangla","MESSENGER_ID":"3388542937903208"}|"dsBangla"|null|
+2020-10-20 06:46:24|null|{"redirectType":"dsBangla","MESSENGER_ID":"3388542937903208"}|"dsBangla"|null|

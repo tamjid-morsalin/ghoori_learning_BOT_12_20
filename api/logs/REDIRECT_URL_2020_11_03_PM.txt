@@ -1,0 +1,8 @@
+2020-11-03 17:00:20|null|{"redirectType":"dsBangla","MESSENGER_ID":"3284569771656042"}|"dsBangla"|null|
+2020-11-03 17:00:20|null|{"redirectType":"dsBangla","MESSENGER_ID":"3284569771656042"}|"dsBangla"|null|
+2020-11-03 17:00:21|null|{"redirectType":"dsBangla","MESSENGER_ID":"3284569771656042"}|"dsBangla"|null|
+2020-11-03 17:00:21|null|{"redirectType":"dsBangla","MESSENGER_ID":"3284569771656042"}|"dsBangla"|null|
+2020-11-03 17:07:53|null|{"redirectType":"DSBangla","MESSENGER_ID":"5368709159821179"}|"DSBangla"|"https:\/\/www.thedailystar.net\/bangla\/"|
+2020-11-03 17:07:55|null|{"redirectType":"DSBangla","MESSENGER_ID":"5368709159821179"}|"DSBangla"|"https:\/\/www.thedailystar.net\/bangla\/"|
+2020-11-03 20:24:31|null|{"redirectType":"DSBangla","MESSENGER_ID":"5368709159821179"}|"DSBangla"|"https:\/\/www.thedailystar.net\/bangla\/"|
+2020-11-03 20:24:44|null|{"redirectType":"DSBangla","MESSENGER_ID":"5368709159821179"}|"DSBangla"|"https:\/\/www.thedailystar.net\/bangla\/"|
