@@ -7,7 +7,7 @@ require_once "lib/database.php";
 require_once "lib/Common.php";
 require_once "../Model/NodeLog.php";
 
-$fileName = "USER_LAST_INTERACTION_WITH_BOT" . (string)date("Y_m_d_A", time()) . ".txt";
+$fileName = "USER_LAST_INTERACTION_WITH_BOT_" . (string)date("Y_m_d_A", time()) . ".txt";
 
 $returnValue = "";
 $postData = file_get_contents("php://input");

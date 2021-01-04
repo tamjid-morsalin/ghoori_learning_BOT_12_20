@@ -11,10 +11,11 @@ class Common
     {
         global $logEnable, $logSeparator;
         //error_reporting(E_ALL);
+
         if ($logEnable) {
 
-            //$path = $_SERVER['DOCUMENT_ROOT']."/tds_BOT_10_20/logs/" . $fileName;
-            $path = "logs/". $fileName;
+            // $path = $_SERVER['DOCUMENT_ROOT']."/ghoori_learning_BOT_12_20/logs/" . $fileName;
+            $path = "../logs/". $fileName;
             $file = fopen($path, 'a+');
             //var_dump(error_get_last());
             fwrite($file, date("Y-m-d H:i:s", time()) . $logSeparator . $logTxt . PHP_EOL);

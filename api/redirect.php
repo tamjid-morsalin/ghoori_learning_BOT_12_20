@@ -44,7 +44,7 @@ $nodeLog = new NodeLog($connection);
 
 $nodeLog->messengerId = $messengerId;
 $nodeLog->inputDate = date('Y-m-d H:i:s');
-$nodeLog->nodeName = $redirectType . '_CheckOutNow';
+$nodeLog->nodeName = $redirectType;
 
 $status = $nodeLog->create();
 

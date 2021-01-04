@@ -5,7 +5,7 @@ require_once "config/app.php";
 require_once "config/database.php";
 require_once "lib/database.php";
 require_once "lib/Common.php";
-require_once "../Model/QuizPlayer.php";
+require_once "../Model/Users.php";
 
 $fileName = "IS_AVAILABLE_MSISDN_" . (string)date("Y_m_d_A", time()) . ".txt";
 $responseArray = array();
@@ -24,8 +24,8 @@ $logTxt = json_encode($postData, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
 $dbObj = new Database($database, $dbServer, $dbUserID, $dbPassword);
 $connection = $dbObj->getConnection();
 
-$quizPlayer = new QuizPlayer($connection);
-$status = $quizPlayer->checkMsisdnExists($messengerId);
+$userObj = new Users($connection);
+$status = $userObj->checkMsisdnExists($messengerId);
 
 if(!$status)
 {

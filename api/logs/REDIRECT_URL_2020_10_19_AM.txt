@@ -1,4 +1,0 @@
-2020-10-19 02:36:42|null|{"redirectType":"ePaper","MESSENGER_ID":"4856103587734863"}|"ePaper"|"http:\/\/epaper.thedailystar.net\/"|
-2020-10-19 11:53:59|null|{"redirectType":"ePaper","MESSENGER_ID":"3341118229289212"}|"ePaper"|"http:\/\/epaper.thedailystar.net\/"|
-2020-10-19 11:54:01|null|{"redirectType":"ePaper","MESSENGER_ID":"3341118229289212"}|"ePaper"|"http:\/\/epaper.thedailystar.net\/"|
-2020-10-19 11:54:28|null|{"redirectType":"ePaper","MESSENGER_ID":"3341118229289212"}|"ePaper"|"http:\/\/epaper.thedailystar.net\/"|

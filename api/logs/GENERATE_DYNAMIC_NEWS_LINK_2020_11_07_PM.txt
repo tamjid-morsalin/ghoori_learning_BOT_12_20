@@ -1,4 +1,0 @@
-2020-11-07 12:31:20|null|{"newsKey":"sports","carousel_value":"art_news_1977833","MESSENGER_ID":"4856103587734863"}|"sports"|null|
-2020-11-07 12:31:20|null|{"newsKey":"sports","carousel_value":"art_news_1974441","MESSENGER_ID":"4856103587734863"}|"sports"|null|
-2020-11-07 12:31:22|null|{"newsKey":"sports","carousel_value":"art_news_1977329","MESSENGER_ID":"4856103587734863"}|"sports"|null|
-2020-11-07 12:31:22|null|{"newsKey":"sports","carousel_value":"art_news_1976785","MESSENGER_ID":"4856103587734863"}|"sports"|null|
